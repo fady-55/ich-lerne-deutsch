@@ -19,4 +19,4 @@ A simple personal portfolio website documenting my journey of learning German.
 
 ---
 
-Made By Fady Nabih
+Made by Fady Nabih
