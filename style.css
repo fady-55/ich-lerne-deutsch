@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f5f5f5;
+
+    color:#333;
+
+    line-height:1.8;
+
+}
+
+header{
+
+    background:#111827;
+
+    color:white;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+header h1{
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+header p{
+
+    opacity:.8;
+
+}
+
+section{
+
+    max-width:900px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+h2{
+
+    color:#1f2937;
+
+    margin-bottom:20px;
+
+}
+
+.about p{
+
+    font-size:18px;
+
+}
+
+.goals ul{
+
+    list-style:none;
+
+}
+
+.goals li{
+
+    background:white;
+
+    margin:12px 0;
+
+    padding:15px;
+
+    border-left:6px solid #2563eb;
+
+    border-radius:8px;
+
+}
+
+.progress{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.card h3{
+
+    margin-bottom:10px;
+
+}
+
+.quote{
+
+    text-align:center;
+
+}
+
+blockquote{
+
+    font-size:24px;
+
+    font-style:italic;
+
+    color:#444;
+
+}
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    background:#111827;
+
+    color:white;
+
+}
